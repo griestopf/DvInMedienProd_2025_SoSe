@@ -1,6 +1,6 @@
 relativeURLs = false
 languageCode = 'en-us'
-title = 'Code 3'
+title = 'SW-Dev in Media'
 theme = 'hugo-theme-relearn'
 
 [params]

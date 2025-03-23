@@ -1,5 +1,5 @@
 +++
-date = 2025-03-23T15:27:29+02:00
+archetype = "home"
 draft = false
 weight = 0
 +++
