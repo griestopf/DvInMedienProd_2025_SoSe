@@ -1,7 +1,7 @@
 +++
 title = 'Prozedurale Geometrie'
 draft = false
-weight = 10 
+weight = 20 
 +++
 
 
