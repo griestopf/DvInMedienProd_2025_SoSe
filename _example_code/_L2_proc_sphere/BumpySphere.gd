@@ -1,6 +1,7 @@
 @tool
 
-extends MeshInstance3D
+class_name BumpySphere
+extends ArrayMesh
 
 @export_range(3, 720) var rings := 6:
 	set(value):
@@ -35,7 +36,7 @@ var fnl = FastNoiseLite.new()
 var mdt = MeshDataTool.new()
 
 
-func _enter_tree():
+func _ready():
 	recreate_mesh()
 
 
@@ -97,7 +98,7 @@ func recreate_mesh():
 	surface_array[Mesh.ARRAY_NORMAL] = normals
 	surface_array[Mesh.ARRAY_INDEX] = indices
 
-	mesh.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, surface_array)
+
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

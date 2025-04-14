@@ -1,49 +1,11 @@
-@tool
-
 extends MeshInstance3D
 
-@export_range(3, 720) var rings := 6:
-	set(value):
-		rings = value
-		recreate_mesh()
-	get:
-		return rings
+var rings = 5
+var radial_segments = 8
+var radius = 1
 
-@export_range(3, 1440) var radial_segments := 6:
-	set(value):
-		radial_segments = value
-		recreate_mesh()
-	get:
-		return radial_segments
-
-@export_range(0.1, 5) var radius := 1.0:
-	set(value):
-		radius = value
-		recreate_mesh()
-	get:
-		return radius
-
-@export_range(0, 1) var noise_frequency := 0.7:
-	set(value):
-		noise_frequency = value
-		recreate_mesh()
-	get:
-		return noise_frequency
-
-
-var fnl = FastNoiseLite.new()
-var mdt = MeshDataTool.new()
-
-
-func _enter_tree():
-	recreate_mesh()
-
-
-func recreate_mesh():
-
-	print("Recreate Mesh: Rings: " + str(rings) + "; Radial Segments: " + str(radial_segments) + "; Radius: " + str(radius) + "; Noise Frequency: " + str(noise_frequency))
-	mesh.clear_surfaces()
-
+# Called when the node enters the scene tree for the first time.
+func _ready():#
 	var surface_array = []
 	surface_array.resize(Mesh.ARRAY_MAX)
 
@@ -60,7 +22,7 @@ func recreate_mesh():
 	var prevrow = 0
 	var point = 0
 
-	# Loop over rings_of_the_circle.
+	# Loop over rings.
 	for i in range(rings + 1):
 		var v = float(i) / rings
 		var w = sin(PI * v)
@@ -96,6 +58,7 @@ func recreate_mesh():
 	surface_array[Mesh.ARRAY_TEX_UV] = uvs
 	surface_array[Mesh.ARRAY_NORMAL] = normals
 	surface_array[Mesh.ARRAY_INDEX] = indices
+
 
 	mesh.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, surface_array)
 

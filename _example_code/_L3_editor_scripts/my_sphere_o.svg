@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Sphere_wireframe"
+   version="1.1"
+   width="16"
+   height="16"
+   sodipodi:docname="my_sphere.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="22.627417"
+     inkscape:cx="33.83064"
+     inkscape:cy="17.876543"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="3061"
+     inkscape:window-y="7"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Sphere_wireframe" />
+  <title
+     id="title1">Sphere wireframe</title>
+  <desc
+     id="desc1">
+     about: http://commons.wikimedia.org/wiki/Image:Sphere_wireframe.svg
+     rights: GNU Free Documentation license,
+             Creative Commons Attribution ShareAlike license
+  </desc>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Sphere wireframe</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <ellipse
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:1;stroke-dasharray:none"
+     id="path33"
+     cx="8.0212421"
+     cy="8.0433397"
+     rx="7.515213"
+     ry="7.5373101" />
+  <ellipse
+     style="fill:none;stroke:#000000;stroke-width:0.995958;stroke-dasharray:none;stroke-opacity:1"
+     id="path33-1"
+     cx="8.1191444"
+     cy="8.0281944"
+     rx="4.911438"
+     ry="7.5188942" />
+  <ellipse
+     style="fill:none;stroke:#000000;stroke-width:0.979836;stroke-dasharray:none;stroke-opacity:1"
+     id="path33-1-7"
+     cx="8.1026783"
+     cy="8.0130091"
+     rx="2.0082018"
+     ry="7.3335996" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+     d="M 0.57452426,7.9991454 15.556349,8.0433396"
+     id="path34" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.917311;stroke-dasharray:none;stroke-opacity:1"
+     d="m 1.6543319,4.0206698 12.5470231,0.0444"
+     id="path34-3" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.917311;stroke-dasharray:none;stroke-opacity:1"
+     d="m 1.6922638,11.89974 12.5470232,0.0444"
+     id="path34-3-5" />
+</svg>

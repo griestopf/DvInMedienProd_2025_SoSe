@@ -9,13 +9,15 @@ weight = 0
 - Prozedurale, algorithmische Erzeugung von Assets (3D-Meshes, Texturen, ...)
   - Als Editor-Erweiterungen
     - Leicht und interaktiv durch User parametrisier- und steuerbar
-  - Als Gocdot-Plugin mit UI
+  - Als Godot-Plugin mit UI
   - Ideen
     - Terrain-Gen: Aus öffentlichen Daten (OSM, Höhendaten) Terrain erstellen
     - Building-Gen: Einfache Gebäude über wenige Parameter (Grundriss, Höhe, ggf. Box) aus vordefinierten Elementen (Wand, Fenster, Türen, Dach) generieren
     - City-Gen: Kombination aua Terrain- und Building-Gen
     - Gearbox-Gen: Zahnräder und Getriebe parametrisch erzeugen
     - Plant-Gen: Pflanzen parametrisch erzeugen
+    - Crowd-/Flock-/School-Gen: Massen von sich bewegenden Objekten (Menschen, Vögel, Fische, ...) einfügen. Diese nach bekannten Algorithmen animieren. Die Parameter sowohl das Einfügen der Massen als auch für die Antimation für Nutzer in einem UI intutitiv und attraktiv bedienbar machen.
+    
 
 
 ## Termine im SoSe 2025
